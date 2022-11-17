@@ -1,0 +1,54 @@
+[
+  {
+    "name": "JavaScript",
+    "image": ""
+  },
+  {
+    "name": "React",
+    "image": ""
+  },
+  {
+    "name": "HTML",
+    "image": ""
+  },
+  {
+    "name": "CSS",
+    "image": ""
+  },
+  {
+    "name": "Java",
+    "image": ""
+  },
+  {
+    "name": "Python",
+    "image": ""
+  },
+  {
+    "name": "Flask",
+    "image": ""
+  },
+  {
+    "name": "Node.js",
+    "image": ""
+  },
+  {
+    "name": "Github",
+    "image": ""
+  },
+  {
+    "name": "Git",
+    "image": ""
+  },
+  {
+    "name": "Firebase",
+    "image": ""
+  },
+  {
+    "name": "VS code",
+    "image": ""
+  },
+  {
+    "name": "IntelliJ",
+    "image": ""
+  }
+]

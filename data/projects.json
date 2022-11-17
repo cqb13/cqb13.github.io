@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Numby hack",
+    "description": "This is my most popular project. It is a minecraft mod, ment to be run with meteor on 1.19.2. While making this project, I learned a lot about how to organize code, along with writing goodreadable code.",
+    "buttons": [["Github Page", "https://github.com/cqb13/Numby-hack"]]
+  },
+  {
+    "name": "Custom Chrome Tab",
+    "description": "This is a chrome extension that allows the user to heavily customize the default chrome tab. This project, and all my other chrome extensions were intended to help me learn html and css.",
+    "buttons": [["Github Page", "https://github.com/cqb13/Custom-Chrome-Tab"]]
+  },
+  {
+    "name": "Phoenix Anarchy Timeline",
+    "description": "This is the first website I ever made. While making this website I learned how to create / host a website, how to create mobile compatible websites. My css skills also greatly improved while I was working on this project.",
+    "buttons": [
+      ["Github Page", "https://github.com/cqb13/Phoenix-Anarchy-Timeline"],
+      ["Website", "https://www.patimeline.ml"]
+    ]
+  },
+  {
+    "name": "Learn Latin",
+    "description": "This is a website I made to help me study for my Latin class. While making this website I learned React along with Flask, I also greatly improved my ability to write reusable code.",
+    "buttons": [
+      ["Github Page", "https://github.com/cqb13/Learn-Latin"],
+      ["Website", "https://learn-latin.ml"]
+    ]
+  }
+]

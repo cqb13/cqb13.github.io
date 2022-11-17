@@ -1,0 +1,166 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  color: #444;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+body {
+  background: linear-gradient(190deg, #f9f9f9, #6992c9);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container {
+  text-align: left;
+  justify-self: left;
+  width: fit-content;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+img:hover {
+  transition: 500ms;
+  scale: 1.1;
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 23px;
+  padding: 5px;
+}
+
+hr {
+  width: 80%;
+  border-top: 1.5px solid #444;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+a.block {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 16px;
+  width: 30%;
+  transition: 500ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+a:hover {
+  scale: 1.1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  transition: 500ms;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  width: 45%;
+}
+
+.technology {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: 500ms;
+}
+
+.technology:hover {
+  scale: 1.1;
+}
+
+footer {
+  text-align: right;
+}
+
+svg.footerIcon {
+  height: 30px;
+  fill: #f5f7fa;
+  transition: 500ms;
+}
+
+svg.footerIcon:hover {
+  scale: 1.1;
+}
+
+.block {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 780px) {
+  .item-container {
+    padding: 5px;
+  }
+  .project {
+    width: 95%;
+  }
+  .technology {
+    width: 95%;
+  }
+  main {
+    width: 95%;
+  }
+}
