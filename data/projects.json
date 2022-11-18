@@ -22,7 +22,7 @@
     "description": "This is a website I made to help me study for my Latin class. While making this website I learned React along with Flask, I also greatly improved my ability to write reusable code.",
     "buttons": [
       ["Github Page", "https://github.com/cqb13/Learn-Latin"],
-      ["Website", "https://learn-latin.ml"]
+      ["Website", "https://learninglatin.net"]
     ]
   }
 ]
