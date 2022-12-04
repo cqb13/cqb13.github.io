@@ -4,6 +4,14 @@ var technologies = getData("tech");
 var projects = getData("projects");
 createTechnologyComponent(technologies);
 createProjectComponent(projects);
+const body = document.querySelector("body");
+
+// when projectContainer is scrolled to, give it an animation of fade in
+body.addEventListener("scroll", () => {
+  if (body.scrollTop > 0) {
+    projectContainer.classList.add("fade-in");
+  }
+});
 
 // sets up technologies
 function createTechnologyComponent(technologies) {
